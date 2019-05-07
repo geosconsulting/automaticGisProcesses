@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="a0d46b22-23be-40cb-982d-e3ba746cd5f0" data-root-id="1240"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1428">
+          {"74a4fe4d-36ac-4ba1-b6e3-3c159d912e7b":{"roots":{"references":[{"attributes":{"dimension":1,"ticker":{"id":"1257","type":"BasicTicker"}},"id":"1260","type":"Grid"},{"attributes":{},"id":"1264","type":"SaveTool"},{"attributes":{},"id":"1239","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1235","type":"ColumnDataSource"},"glyph":{"id":"1275","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1276","type":"Circle"},"selection_glyph":null,"view":{"id":"1278","type":"CDSView"}},"id":"1277","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1288","type":"BoxAnnotation"},{"attributes":{},"id":"1249","type":"LinearScale"},{"attributes":{},"id":"1261","type":"PanTool"},{"attributes":{},"id":"1257","type":"BasicTicker"},{"attributes":{"below":[{"id":"1251","type":"LinearAxis"}],"center":[{"id":"1255","type":"Grid"},{"id":"1260","type":"Grid"}],"left":[{"id":"1256","type":"LinearAxis"}],"renderers":[{"id":"1277","type":"GlyphRenderer"}],"title":{"id":"1241","type":"Title"},"toolbar":{"id":"1267","type":"Toolbar"},"x_range":{"id":"1243","type":"DataRange1d"},"x_scale":{"id":"1247","type":"LinearScale"},"y_range":{"id":"1245","type":"DataRange1d"},"y_scale":{"id":"1249","type":"LinearScale"}},"id":"1240","subtype":"Figure","type":"Plot"},{"attributes":{"text":"A map of address points from a Shapefile"},"id":"1241","type":"Title"},{"attributes":{"formatter":{"id":"1283","type":"BasicTickFormatter"},"ticker":{"id":"1252","type":"BasicTicker"}},"id":"1251","type":"LinearAxis"},{"attributes":{},"id":"1252","type":"BasicTicker"},{"attributes":{"overlay":{"id":"1288","type":"BoxAnnotation"}},"id":"1263","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1276","type":"Circle"},{"attributes":{"callback":null,"tooltips":[["Address of the point","@address"]]},"id":"1354","type":"HoverTool"},{"attributes":{"callback":null},"id":"1245","type":"DataRange1d"},{"attributes":{"formatter":{"id":"1285","type":"BasicTickFormatter"},"ticker":{"id":"1257","type":"BasicTicker"}},"id":"1256","type":"LinearAxis"},{"attributes":{"callback":null,"data":{"addr":["It\u00e4merenkatu 14, 00101 Helsinki, Finland","Kampinkuja 1, 00100 Helsinki, Finland","Kaivokatu 8, 00101 Helsinki, Finland","Hermannin rantatie 1, 00580 Helsinki, Finland","Tyynenmerenkatu 9, 00220 Helsinki, Finland","Kontulantie 18, 00940 Helsinki, Finland","It\u00e4v\u00e4yl\u00e4 3, 00950 Helsinki, Finland","Tapulikaupungintie 3, 00750 Helsinki, Finland","Sompionpolku 2, 00730 Helsinki, Finland","Atomitie 5, 00370 Helsinki, Finland","Rautatientori 1, 00100 Helsinki, Finland","Kuparitie 8, 00440 Helsinki, Finland","Rumpupolku 8, 00420 Helsinki, Finland","M\u00e4kitorpantie 1, 00620 Helsinki, Finland","Malminkaari 15, 00700 Helsinki, Finland","Kyl\u00e4tie 23, 00320 Helsinki, Finland","Malminkartanontie 17, 00410 Helsinki, Finland","Oulunkyl\u00e4n tori 2b, 00640 Helsinki, Finland","Ratapihantie 6, 00101 Helsinki, Finland","Pit\u00e4j\u00e4nm\u00e4entie 15, 00370 Helsinki, Finland","Eskolantie 2, 00720 Helsinki, Finland","Tattariharjuntie, 00700 Helsinki, Finland","Tallinnanaukio 1, 00930 Helsinki, Finland","Tyynylaavantie 7, 00980 Helsinki, Finland","Myllypurontie 5, 00920 Helsinki, Finland","Mellunm\u00e4enraitio 6, 00970 Helsinki, Finland","Vaasanpolku 2, 00101 Helsinki, Finland","Hiiht\u00e4j\u00e4ntie 2, 00810 Helsinki, Finland","Ukko-Pekan porras 2, 00570 Helsinki, Finland","Siltasaarenkatu 16, 00530 Helsinki, Finland","Urho Kekkosen katu 1, 00100 Helsinki, Finland","Ruoholahdenkatu 17, 00101 Helsinki, Finland","Tyynenmerenkatu 3, 00220 Helsinki, Finland","Vilhonkatu 4, 00101 Helsinki, Finland"],"address":["Ruoholahti, 14, It\u00e4merenkatu, Ruoholahti, L\u00e4nsisatama, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00180, Suomi","Kamppi, 1, Kampinkuja, Kamppi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00100, Suomi","Bangkok9, 8, Kaivokatu, Keskusta, Kluuvi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00101, Suomi","Hermannin rantatie, Kyl\u00e4saari, Hermanni, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00580, Suomi","Hesburger, 9, Tyynenmerenkatu, J\u00e4tk\u00e4saari, L\u00e4nsisatama, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00220, Suomi","Kontulantie, Kontula, Mellunkyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00940, Suomi","It\u00e4v\u00e4yl\u00e4, Vartioharju, Vartiokyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00950, Suomi","3-5, Tapulikaupungintie, Tapulikaupunki, Suutarila, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00750, Suomi","Sompionpolku, Tapanila, Tapaninkyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00730, Suomi","Sodexo, 5, Atomitie, Pit\u00e4j\u00e4nm\u00e4en teollisuusalue, Pit\u00e4j\u00e4nm\u00e4ki, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00380, Suomi","Aseman wursti, 1, Rautatientori, Keskusta, Kluuvi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00100, Suomi","Kuparitie, Lassila, Haaga, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00440, Suomi","Rumpupolku, Kannelm\u00e4ki, Kaarela, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00420, Suomi","Mustapekka, 1, M\u00e4kitorpantie, Patola, Oulunkyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00620, Suomi","15, Malminkaari, Ala-Malmi, Malmi, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00700, Suomi","23, Kyl\u00e4tie, Etel\u00e4-Haaga, Haaga, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00320, Suomi","Malminkartanontie, Malminkartano, Kaarela, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00410, Suomi","Oulunkyl\u00e4n tori, Patola, Oulunkyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00640, Suomi","Subway, 6, Ratapihantie, It\u00e4-Pasila, Pasila, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00520, Suomi","Pizza Benitto, 15, Pit\u00e4j\u00e4nm\u00e4entie, Reimarla, Pit\u00e4j\u00e4nm\u00e4ki, L\u00e4ntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00370, Suomi","K-Market, 2, Eskolantie, Pukinm\u00e4ki, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00720, Suomi","Tattariharjuntie, Ala-Malmi, Malmi, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00700, Suomi","Danske Bank, 1, Tallinnanaukio, It\u00e4keskus, Vartiokyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00930, Suomi","Tyynylaavantie, Keski-Vuosaari, Vuosaari, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00980, Suomi","Myllypurontie, Myllypuro, Vartiokyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00920, Suomi","Mellunm\u00e4enraitio, Vesala, Mellunkyl\u00e4, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00970, Suomi","Vaasanpolku, Harju, Alppiharju, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00500, Suomi","2, Hiiht\u00e4j\u00e4ntie, L\u00e4nsi-Herttoniemi, Herttoniemi, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00881, Suomi","Metro Kulosaari, 2, Ukko-Pekan porras, Kulosaari, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00570, Suomi","Nissen Optikko, 16, Siltasaarenkatu, Siltasaari, Kallio, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00530, Suomi","Kampin keskus, 1, Urho Kekkosen katu, Kamppi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00100, Suomi","Ruoholahdenkatu, Hietalahti, Kamppi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00180, Suomi","3, Tyynenmerenkatu, J\u00e4tk\u00e4saari, L\u00e4nsisatama, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00220, Suomi","4, Vilhonkatu, Keskusta, Kluuvi, Etel\u00e4inen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Etel\u00e4-Suomi, Manner-Suomi, 00100, Suomi"],"id":[1000,1001,1002,1003,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33],"x":{"__ndarray__":"gHIlTGLqOEDm9txTg+44QBSj+EIS8ThA9OOK5lz5OEDae0z/7es4QEBnd+13FzlAm7unvGccOUDm2i/rfAg5QMpChTR0BzlAnWCkvPveOEDOUNzxJvE4QBlkgWVb4jhAzyrY64LgOEDz8FR2sPI4QJg76TNWAzlAfKhwBunkOECj2MAMfN04QLPIGwUt9zhAon+CixXvOEA6+qk7YNw4QI4Y4v1d/jhAtnbssT4FOUAQxB5/DhQ5QKIGeHcJIzlAw8L/DCUTOUAtRrgkYhs5QKta0lEO9jhAtB3ZW9EGOUA5WKQuvgE5QFVyqaUU8zhAl6yiqeDuOEBrWQi83ew4QNVcbjDU6zhAPw6UJYTyOEA=","dtype":"float64","shape":[34]},"y":{"__ndarray__":"PpRoyeMUTkAkpvqEohVOQOqA2l7BFU5AK7xwjAkZTkAFwHgGDRROQHedDflnHk5Agn6VMl8cTkCx0u6hjiNOQJPlJJS+IU5AdLaA0HocTkDWEjzP6RVOQC/dJAaBHU5A3PY96q8eTkADk8CLYxxOQHLFIAssIE5AzPdCt80bTkBNCphl9B9OQKAhd2xfHU5AHnusz4sZTkC5iO/ErBxOQJQZyuQvH05ADwwgfCgfTkArildZ2xpOQADp9u1/Gk5AVnfR/NYcTkDOupBYnB5OQOdyg6EOGE5AZyeDo+QYTkDs2RjgJxhOQJklprD3Fk5AuEX0xqQVTkB7B4n+GhVOQE1O7QxTFE5A+sz+5f8VTkA=","dtype":"float64","shape":[34]}},"selected":{"id":"1238","type":"Selection"},"selection_policy":{"id":"1239","type":"UnionRenderers"}},"id":"1235","type":"ColumnDataSource"},{"attributes":{},"id":"1283","type":"BasicTickFormatter"},{"attributes":{"ticker":{"id":"1252","type":"BasicTicker"}},"id":"1255","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1261","type":"PanTool"},{"id":"1262","type":"WheelZoomTool"},{"id":"1263","type":"BoxZoomTool"},{"id":"1264","type":"SaveTool"},{"id":"1265","type":"ResetTool"},{"id":"1266","type":"HelpTool"},{"id":"1354","type":"HoverTool"}]},"id":"1267","type":"Toolbar"},{"attributes":{},"id":"1262","type":"WheelZoomTool"},{"attributes":{},"id":"1285","type":"BasicTickFormatter"},{"attributes":{},"id":"1238","type":"Selection"},{"attributes":{"callback":null},"id":"1243","type":"DataRange1d"},{"attributes":{"source":{"id":"1235","type":"ColumnDataSource"}},"id":"1278","type":"CDSView"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1275","type":"Circle"},{"attributes":{},"id":"1266","type":"HelpTool"},{"attributes":{},"id":"1247","type":"LinearScale"},{"attributes":{},"id":"1265","type":"ResetTool"}],"root_ids":["1240"]},"title":"Bokeh Application","version":"1.1.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1428').textContent;
+                  var render_items = [{"docid":"74a4fe4d-36ac-4ba1-b6e3-3c159d912e7b","roots":{"1240":"a0d46b22-23be-40cb-982d-e3ba746cd5f0"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
